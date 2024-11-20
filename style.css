@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #CCFBFE;
+  background: #FFFFFF;
   overflow: hidden;
   font-family: sans-serif;
 }
@@ -67,11 +67,9 @@ body {
 
 .tinder--card {
   display: inline-block;
-  width: 90vw;
+  width: 90%;
   max-width: 400px;
-  height: 70vh;
-  background: #FFFFFF;
-  padding-bottom: 40px;
+  height: 70%;
   border-radius: 8px;
   overflow: hidden;
   position: absolute;
@@ -80,6 +78,7 @@ body {
   cursor: -webkit-grab;
   cursor: grab;
 }
+
 
 .moving.tinder--card {
   transition: none;
