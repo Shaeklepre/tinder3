@@ -65,6 +65,11 @@ body {
   z-index: 1;
 }
 
+#result {
+  text-align: center;
+  padding: 10%;
+}
+
 .tinder--card {
   display: inline-block;
   width: 90%;
